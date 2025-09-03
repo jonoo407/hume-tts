@@ -1,3 +1,4 @@
+__version__ = "0.9.0"
 #!/usr/bin/env python3
 """
 Hume AI TTS Wyoming Protocol Server
