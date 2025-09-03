@@ -1,0 +1,12 @@
+# Example voices.txt
+# Format: name, id_or_name[, provider]
+# Provider is optional: "custom" (default) or "hume" for Hume Voice Library.
+# Lines starting with # or blank lines are ignored.
+
+# Custom voices (UUIDs for your own trained/custom voices)
+Scarlett Johansson, eaa917f9-fb8e-4b44-9e8d-b3b78c9c1ebc
+Jon, 1f9f033f-c890-402b-83f3-74affa44d5bc
+
+# Hume Voice Library (by name or UUID) — mark provider as 'hume'
+Olivia, Olivia, hume
+Kora, 59cfc7ab-e945-43de-ad1a-471daa379c67, hume

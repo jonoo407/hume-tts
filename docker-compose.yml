@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  hume-tts:
+    build: .
+    container_name: hume-tts
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "10201:10201"
+    volumes:
+      - ./voices.txt:/app/voices.txt:ro
+    # The container's entrypoint runs: python3 server.py
+    # Configure via environment variables in .env
+    # Example values are provided in .env.example

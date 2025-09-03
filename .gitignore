@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Environment and secrets (DO NOT COMMIT)
+.env
+secrets.env
+
+# Local voice configuration (user-specific)
+voices.txt
+voices.json
+voices.sample.json
+
+# Allow sample/example files in repo
+!voices.sample.txt
+
+# Docker
+*.pid
+

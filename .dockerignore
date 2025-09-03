@@ -1,0 +1,14 @@
+# Exclude everything not needed for the image
+**/*
+
+# Allow only what the Dockerfile copies
+!requirements.txt
+!server.py
+!Dockerfile
+
+# Never include secrets or local configs
+secrets.env
+.env
+voices.txt
+voices.json
+logs/
