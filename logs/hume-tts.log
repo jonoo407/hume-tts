@@ -12213,3 +12213,976 @@
 2025-09-07 23:01:34,967 - __main__ - DEBUG - Stream summary: events=125 audio_events=125 bytes_in=7039090 pcm_out=3231056 chunks_emitted=3156
 2025-09-07 23:01:34,967 - __main__ - DEBUG - Finished streaming from Hume AI
 2025-09-07 23:01:34,967 - __main__ - DEBUG - Wyoming write summary: chunks=3383 avg_send_ms=0.0 max_send_ms=0.1
+2025-09-07 23:06:10,281 - __main__ - DEBUG - Event received: synthesize-start
+2025-09-07 23:06:10,281 - __main__ - DEBUG - Eager streaming mode: initialized background stream task
+2025-09-07 23:06:10,281 - __main__ - DEBUG - SynthesizeStart received: initialized streaming input session
+2025-09-07 23:06:10,281 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,281 - __main__ - DEBUG - t_first_input_chunk=0ms after SynthesizeStart
+2025-09-07 23:06:10,281 - __main__ - DEBUG - SynthesizeChunk received: +72 chars (total=72)
+2025-09-07 23:06:10,281 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,281 - __main__ - DEBUG - SynthesizeChunk received: +10 chars (total=82)
+2025-09-07 23:06:10,281 - __main__ - DEBUG - Mapped voice name 'Articulate British Narrator' -> spec {'provider': 'HUME_AI', 'key_type': 'id', 'value': '4652d91b-edaf-42c5-abd4-904009422de3'}
+2025-09-07 23:06:10,316 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,316 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=88)
+2025-09-07 23:06:10,316 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,316 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=93)
+2025-09-07 23:06:10,357 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,357 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=94)
+2025-09-07 23:06:10,358 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,358 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=95)
+2025-09-07 23:06:10,358 - __main__ - DEBUG - Eager segment_tail: ... garden, there was an extraordinary pineapple named Piney.
+2025-09-07 23:06:10,358 - __main__ - DEBUG - Eager: streaming segment len=95 tail=... garden, there was an extraordinary pineapple named Piney.
+2025-09-07 23:06:10,358 - __main__ - DEBUG - Sending request to Hume API with voice_spec: provider=HUME_AI id=4652d91b-edaf-42c5-abd4-904009422de3
+2025-09-07 23:06:10,402 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,402 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=100)
+2025-09-07 23:06:10,402 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,402 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=105)
+2025-09-07 23:06:10,451 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,451 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=110)
+2025-09-07 23:06:10,451 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,452 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=111)
+2025-09-07 23:06:10,494 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,494 - __main__ - DEBUG - SynthesizeChunk received: +8 chars (total=119)
+2025-09-07 23:06:10,494 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,494 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=123)
+2025-09-07 23:06:10,531 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,532 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=128)
+2025-09-07 23:06:10,532 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,532 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=132)
+2025-09-07 23:06:10,573 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,573 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=137)
+2025-09-07 23:06:10,573 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,573 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=144)
+2025-09-07 23:06:10,625 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,625 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=149)
+2025-09-07 23:06:10,625 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,625 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=150)
+2025-09-07 23:06:10,654 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,654 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=156)
+2025-09-07 23:06:10,655 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,655 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=160)
+2025-09-07 23:06:10,692 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,692 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=164)
+2025-09-07 23:06:10,692 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,692 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=170)
+2025-09-07 23:06:10,740 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,740 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=175)
+2025-09-07 23:06:10,740 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,740 - __main__ - DEBUG - SynthesizeChunk received: +2 chars (total=177)
+2025-09-07 23:06:10,779 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,779 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=181)
+2025-09-07 23:06:10,779 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,779 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=187)
+2025-09-07 23:06:10,820 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,820 - __main__ - DEBUG - SynthesizeChunk received: +8 chars (total=195)
+2025-09-07 23:06:10,820 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,820 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=196)
+2025-09-07 23:06:10,863 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,863 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=201)
+2025-09-07 23:06:10,863 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,864 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=202)
+2025-09-07 23:06:10,898 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,898 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=207)
+2025-09-07 23:06:10,899 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,899 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=212)
+2025-09-07 23:06:10,935 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,935 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=216)
+2025-09-07 23:06:10,935 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,935 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=223)
+2025-09-07 23:06:10,972 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,972 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=228)
+2025-09-07 23:06:10,973 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:10,973 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=232)
+2025-09-07 23:06:11,011 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,012 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=238)
+2025-09-07 23:06:11,012 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,012 - __main__ - DEBUG - SynthesizeChunk received: +9 chars (total=247)
+2025-09-07 23:06:11,042 - __main__ - DEBUG - Connected to Hume AI streaming API
+2025-09-07 23:06:11,042 - __main__ - DEBUG - Hume response headers: {'Date': 'Sun, 07 Sep 2025 23:06:11 GMT', 'Content-Type': 'text/plain; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-RAY': '97b9dae6fe4396ee-MIA', 'x-request-id': 'f07b5856-2e1e-4269-b679-e077ac932496', 'Via': '1.1 google', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare'}
+2025-09-07 23:06:11,042 - __main__ - DEBUG - content_type=text/plain; charset=utf-8 is_sse=False
+2025-09-07 23:06:11,042 - __main__ - DEBUG - t_connect=683ms
+2025-09-07 23:06:11,049 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,049 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=250)
+2025-09-07 23:06:11,049 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,049 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=254)
+2025-09-07 23:06:11,050 - __main__ - DEBUG - t_first_sse=691ms
+2025-09-07 23:06:11,050 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:11,050 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:11,085 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,086 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=261)
+2025-09-07 23:06:11,086 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,086 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=264)
+2025-09-07 23:06:11,101 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:11,101 - __main__ - DEBUG - t_first_pcm=743ms (Δ from first SSE=51ms)
+2025-09-07 23:06:11,101 - __main__ - DEBUG - t_audio_start_sent=819ms
+2025-09-07 23:06:11,102 - __main__ - DEBUG - t_first_chunk_sent=819ms
+2025-09-07 23:06:11,133 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,133 - __main__ - DEBUG - SynthesizeChunk received: +2 chars (total=266)
+2025-09-07 23:06:11,133 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,133 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=272)
+2025-09-07 23:06:11,167 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,168 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=273)
+2025-09-07 23:06:11,168 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,168 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=278)
+2025-09-07 23:06:11,208 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,208 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=281)
+2025-09-07 23:06:11,209 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,209 - __main__ - DEBUG - SynthesizeChunk received: +11 chars (total=292)
+2025-09-07 23:06:11,249 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,249 - __main__ - DEBUG - SynthesizeChunk received: +8 chars (total=300)
+2025-09-07 23:06:11,249 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,249 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=304)
+2025-09-07 23:06:11,275 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:11,276 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:11,285 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,285 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=310)
+2025-09-07 23:06:11,289 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,289 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=317)
+2025-09-07 23:06:11,324 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,324 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=318)
+2025-09-07 23:06:11,324 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,324 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=322)
+2025-09-07 23:06:11,326 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:11,363 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,363 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=327)
+2025-09-07 23:06:11,364 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,364 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=328)
+2025-09-07 23:06:11,406 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,406 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=335)
+2025-09-07 23:06:11,406 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,406 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=340)
+2025-09-07 23:06:11,410 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:11,411 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:11,441 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,441 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=341)
+2025-09-07 23:06:11,441 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,441 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=345)
+2025-09-07 23:06:11,458 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:11,477 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,477 - __main__ - DEBUG - SynthesizeChunk received: +8 chars (total=353)
+2025-09-07 23:06:11,478 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,478 - __main__ - DEBUG - SynthesizeChunk received: +9 chars (total=362)
+2025-09-07 23:06:11,518 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,519 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=366)
+2025-09-07 23:06:11,519 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,519 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=372)
+2025-09-07 23:06:11,534 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:11,535 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:11,556 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,556 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=377)
+2025-09-07 23:06:11,556 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,556 - __main__ - DEBUG - SynthesizeChunk received: +2 chars (total=379)
+2025-09-07 23:06:11,580 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:11,599 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,599 - __main__ - DEBUG - SynthesizeChunk received: +10 chars (total=389)
+2025-09-07 23:06:11,599 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,599 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=395)
+2025-09-07 23:06:11,630 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,630 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=396)
+2025-09-07 23:06:11,630 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,630 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=400)
+2025-09-07 23:06:11,666 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:11,667 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,667 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=406)
+2025-09-07 23:06:11,667 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:11,667 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,667 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=410)
+2025-09-07 23:06:11,710 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,710 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=417)
+2025-09-07 23:06:11,710 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,711 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=424)
+2025-09-07 23:06:11,717 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:11,741 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,741 - __main__ - DEBUG - SynthesizeChunk received: +9 chars (total=433)
+2025-09-07 23:06:11,742 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,742 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=434)
+2025-09-07 23:06:11,782 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,782 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=439)
+2025-09-07 23:06:11,782 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,782 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=443)
+2025-09-07 23:06:11,809 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:11,810 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:11,824 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,824 - __main__ - DEBUG - SynthesizeChunk received: +10 chars (total=453)
+2025-09-07 23:06:11,824 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,824 - __main__ - DEBUG - SynthesizeChunk received: +9 chars (total=462)
+2025-09-07 23:06:11,857 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:11,866 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,866 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=465)
+2025-09-07 23:06:11,866 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,866 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=469)
+2025-09-07 23:06:11,905 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,905 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=476)
+2025-09-07 23:06:11,905 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,905 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=480)
+2025-09-07 23:06:11,942 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:11,942 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:11,956 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,956 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=484)
+2025-09-07 23:06:11,956 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,956 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=489)
+2025-09-07 23:06:11,983 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,983 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=492)
+2025-09-07 23:06:11,983 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:11,983 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=498)
+2025-09-07 23:06:11,989 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:12,020 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,021 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=504)
+2025-09-07 23:06:12,021 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,021 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=510)
+2025-09-07 23:06:12,061 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,061 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=517)
+2025-09-07 23:06:12,061 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,061 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=520)
+2025-09-07 23:06:12,115 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,115 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=523)
+2025-09-07 23:06:12,115 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,115 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=527)
+2025-09-07 23:06:12,136 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,136 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=528)
+2025-09-07 23:06:12,136 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,136 - __main__ - DEBUG - SynthesizeChunk received: +2 chars (total=530)
+2025-09-07 23:06:12,172 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,172 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=534)
+2025-09-07 23:06:12,172 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,172 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=537)
+2025-09-07 23:06:12,211 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,212 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=543)
+2025-09-07 23:06:12,212 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,212 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=547)
+2025-09-07 23:06:12,255 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,255 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=550)
+2025-09-07 23:06:12,255 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,255 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=555)
+2025-09-07 23:06:12,262 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:12,263 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:12,285 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,285 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=560)
+2025-09-07 23:06:12,285 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,285 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=564)
+2025-09-07 23:06:12,313 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:12,330 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,330 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=571)
+2025-09-07 23:06:12,330 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,330 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=572)
+2025-09-07 23:06:12,374 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,375 - __main__ - DEBUG - SynthesizeChunk received: +11 chars (total=583)
+2025-09-07 23:06:12,375 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,375 - __main__ - DEBUG - SynthesizeChunk received: +8 chars (total=591)
+2025-09-07 23:06:12,405 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:12,406 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:12,410 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,410 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=594)
+2025-09-07 23:06:12,411 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,411 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=598)
+2025-09-07 23:06:12,448 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,448 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=603)
+2025-09-07 23:06:12,449 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,449 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=607)
+2025-09-07 23:06:12,454 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:12,503 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,503 - __main__ - DEBUG - SynthesizeChunk received: +9 chars (total=616)
+2025-09-07 23:06:12,503 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,504 - __main__ - DEBUG - SynthesizeChunk received: +9 chars (total=625)
+2025-09-07 23:06:12,531 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:12,531 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:12,547 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,547 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=630)
+2025-09-07 23:06:12,548 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,548 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=636)
+2025-09-07 23:06:12,579 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:12,592 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,592 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=640)
+2025-09-07 23:06:12,592 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,593 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=647)
+2025-09-07 23:06:12,636 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,636 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=648)
+2025-09-07 23:06:12,636 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,636 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=652)
+2025-09-07 23:06:12,677 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,677 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=658)
+2025-09-07 23:06:12,677 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,677 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=665)
+2025-09-07 23:06:12,722 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,722 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=671)
+2025-09-07 23:06:12,722 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,722 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=674)
+2025-09-07 23:06:12,752 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:12,752 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:12,764 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,764 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=679)
+2025-09-07 23:06:12,764 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,765 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=680)
+2025-09-07 23:06:12,799 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:12,808 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,808 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=684)
+2025-09-07 23:06:12,808 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,808 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=687)
+2025-09-07 23:06:12,849 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,850 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=691)
+2025-09-07 23:06:12,850 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,850 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=696)
+2025-09-07 23:06:12,893 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,894 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=697)
+2025-09-07 23:06:12,894 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,894 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=701)
+2025-09-07 23:06:12,957 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,957 - __main__ - DEBUG - SynthesizeChunk received: +8 chars (total=709)
+2025-09-07 23:06:12,957 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,957 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=713)
+2025-09-07 23:06:12,959 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:12,959 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:12,971 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,971 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=716)
+2025-09-07 23:06:12,971 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:12,971 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=721)
+2025-09-07 23:06:13,009 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,009 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=724)
+2025-09-07 23:06:13,010 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:13,012 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,012 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=729)
+2025-09-07 23:06:13,045 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,045 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=734)
+2025-09-07 23:06:13,045 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,045 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=738)
+2025-09-07 23:06:13,070 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:13,071 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=17964
+2025-09-07 23:06:13,081 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,081 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=745)
+2025-09-07 23:06:13,081 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,082 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=750)
+2025-09-07 23:06:13,117 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,117 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=755)
+2025-09-07 23:06:13,117 - __main__ - DEBUG - WAV->PCM done: out_bytes=8232
+2025-09-07 23:06:13,118 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,118 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=758)
+2025-09-07 23:06:13,155 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,156 - __main__ - DEBUG - SynthesizeChunk received: +2 chars (total=760)
+2025-09-07 23:06:13,156 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,156 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=763)
+2025-09-07 23:06:13,191 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,191 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=764)
+2025-09-07 23:06:13,192 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,192 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=765)
+2025-09-07 23:06:13,235 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,235 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=772)
+2025-09-07 23:06:13,235 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,236 - __main__ - DEBUG - SynthesizeChunk received: +2 chars (total=774)
+2025-09-07 23:06:13,266 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,266 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=779)
+2025-09-07 23:06:13,267 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,267 - __main__ - DEBUG - SynthesizeChunk received: +2 chars (total=781)
+2025-09-07 23:06:13,311 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,311 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=785)
+2025-09-07 23:06:13,311 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,311 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=788)
+2025-09-07 23:06:13,349 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,349 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=793)
+2025-09-07 23:06:13,350 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,350 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=796)
+2025-09-07 23:06:13,388 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,388 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=800)
+2025-09-07 23:06:13,389 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,389 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=805)
+2025-09-07 23:06:13,427 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,428 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=806)
+2025-09-07 23:06:13,428 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,428 - __main__ - DEBUG - SynthesizeChunk received: +2 chars (total=808)
+2025-09-07 23:06:13,470 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,470 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=812)
+2025-09-07 23:06:13,470 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,470 - __main__ - DEBUG - SynthesizeChunk received: +12 chars (total=824)
+2025-09-07 23:06:13,505 - __main__ - DEBUG - Emitting final PCM chunk of 120 bytes
+2025-09-07 23:06:13,505 - __main__ - DEBUG - Stream summary: events=13 audio_events=13 bytes_in=709692 pcm_out=325752 chunks_emitted=319
+2025-09-07 23:06:13,505 - __main__ - DEBUG - Finished streaming from Hume AI
+2025-09-07 23:06:13,508 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,508 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=830)
+2025-09-07 23:06:13,508 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,508 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=834)
+2025-09-07 23:06:13,544 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,544 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=838)
+2025-09-07 23:06:13,544 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,544 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=842)
+2025-09-07 23:06:13,588 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,589 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=846)
+2025-09-07 23:06:13,589 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,589 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=851)
+2025-09-07 23:06:13,627 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,627 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=854)
+2025-09-07 23:06:13,627 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,627 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=855)
+2025-09-07 23:06:13,658 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,658 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=860)
+2025-09-07 23:06:13,659 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,659 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=861)
+2025-09-07 23:06:13,695 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,695 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=865)
+2025-09-07 23:06:13,695 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,695 - __main__ - DEBUG - SynthesizeChunk received: +11 chars (total=876)
+2025-09-07 23:06:13,733 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,733 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=880)
+2025-09-07 23:06:13,733 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,733 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=884)
+2025-09-07 23:06:13,766 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,766 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=891)
+2025-09-07 23:06:13,767 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,767 - __main__ - DEBUG - SynthesizeChunk received: +10 chars (total=901)
+2025-09-07 23:06:13,801 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,801 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=902)
+2025-09-07 23:06:13,802 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,802 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=906)
+2025-09-07 23:06:13,839 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,840 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=913)
+2025-09-07 23:06:13,840 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,840 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=918)
+2025-09-07 23:06:13,890 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,890 - __main__ - DEBUG - SynthesizeChunk received: +2 chars (total=920)
+2025-09-07 23:06:13,890 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,890 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=925)
+2025-09-07 23:06:13,924 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,924 - __main__ - DEBUG - SynthesizeChunk received: +11 chars (total=936)
+2025-09-07 23:06:13,924 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,924 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=942)
+2025-09-07 23:06:13,956 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,956 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=946)
+2025-09-07 23:06:13,956 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,957 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=952)
+2025-09-07 23:06:13,993 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,993 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=953)
+2025-09-07 23:06:13,993 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:13,993 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=957)
+2025-09-07 23:06:14,023 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,023 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=961)
+2025-09-07 23:06:14,023 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,023 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=968)
+2025-09-07 23:06:14,056 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,057 - __main__ - DEBUG - SynthesizeChunk received: +8 chars (total=976)
+2025-09-07 23:06:14,057 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,057 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=979)
+2025-09-07 23:06:14,089 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,090 - __main__ - DEBUG - SynthesizeChunk received: +11 chars (total=990)
+2025-09-07 23:06:14,090 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,090 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=996)
+2025-09-07 23:06:14,122 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,122 - __main__ - DEBUG - SynthesizeChunk received: +12 chars (total=1008)
+2025-09-07 23:06:14,122 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,122 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=1011)
+2025-09-07 23:06:14,156 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,156 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=1012)
+2025-09-07 23:06:14,156 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,156 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=1015)
+2025-09-07 23:06:14,189 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,189 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=1016)
+2025-09-07 23:06:14,189 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,190 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=1023)
+2025-09-07 23:06:14,229 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,229 - __main__ - DEBUG - SynthesizeChunk received: +9 chars (total=1032)
+2025-09-07 23:06:14,229 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,230 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=1037)
+2025-09-07 23:06:14,315 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,315 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=1042)
+2025-09-07 23:06:14,316 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,316 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=1048)
+2025-09-07 23:06:14,356 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,356 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=1051)
+2025-09-07 23:06:14,357 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,357 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=1054)
+2025-09-07 23:06:14,396 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,396 - __main__ - DEBUG - SynthesizeChunk received: +10 chars (total=1064)
+2025-09-07 23:06:14,397 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,397 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=1068)
+2025-09-07 23:06:14,435 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,435 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=1073)
+2025-09-07 23:06:14,435 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,435 - __main__ - DEBUG - SynthesizeChunk received: +10 chars (total=1083)
+2025-09-07 23:06:14,476 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,476 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=1084)
+2025-09-07 23:06:14,477 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,477 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=1091)
+2025-09-07 23:06:14,514 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,514 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=1095)
+2025-09-07 23:06:14,514 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,514 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=1101)
+2025-09-07 23:06:14,555 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,555 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=1106)
+2025-09-07 23:06:14,556 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,556 - __main__ - DEBUG - SynthesizeChunk received: +2 chars (total=1108)
+2025-09-07 23:06:14,593 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,594 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=1115)
+2025-09-07 23:06:14,594 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,594 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=1121)
+2025-09-07 23:06:14,630 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,630 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=1125)
+2025-09-07 23:06:14,630 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,630 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=1130)
+2025-09-07 23:06:14,669 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,669 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=1134)
+2025-09-07 23:06:14,670 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,670 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=1138)
+2025-09-07 23:06:14,711 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,711 - __main__ - DEBUG - SynthesizeChunk received: +11 chars (total=1149)
+2025-09-07 23:06:14,711 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,711 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=1152)
+2025-09-07 23:06:14,756 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,757 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=1155)
+2025-09-07 23:06:14,757 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,757 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=1158)
+2025-09-07 23:06:14,797 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,797 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=1159)
+2025-09-07 23:06:14,798 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,798 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=1164)
+2025-09-07 23:06:14,835 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,835 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=1165)
+2025-09-07 23:06:14,835 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,836 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=1169)
+2025-09-07 23:06:14,874 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,874 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=1173)
+2025-09-07 23:06:14,874 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,874 - __main__ - DEBUG - SynthesizeChunk received: +8 chars (total=1181)
+2025-09-07 23:06:14,909 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,909 - __main__ - DEBUG - SynthesizeChunk received: +6 chars (total=1187)
+2025-09-07 23:06:14,909 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,909 - __main__ - DEBUG - SynthesizeChunk received: +8 chars (total=1195)
+2025-09-07 23:06:14,954 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,954 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=1196)
+2025-09-07 23:06:14,954 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:14,954 - __main__ - DEBUG - SynthesizeChunk received: +7 chars (total=1203)
+2025-09-07 23:06:14,994 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:15,001 - __main__ - DEBUG - SynthesizeChunk received: +8 chars (total=1211)
+2025-09-07 23:06:15,001 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:15,001 - __main__ - DEBUG - SynthesizeChunk received: +3 chars (total=1214)
+2025-09-07 23:06:15,036 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:15,036 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=1219)
+2025-09-07 23:06:15,036 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:15,036 - __main__ - DEBUG - SynthesizeChunk received: +5 chars (total=1224)
+2025-09-07 23:06:15,080 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:15,080 - __main__ - DEBUG - SynthesizeChunk received: +9 chars (total=1233)
+2025-09-07 23:06:15,081 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:15,081 - __main__ - DEBUG - SynthesizeChunk received: +4 chars (total=1237)
+2025-09-07 23:06:15,107 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:15,107 - __main__ - DEBUG - SynthesizeChunk received: +13 chars (total=1250)
+2025-09-07 23:06:15,107 - __main__ - DEBUG - Event received: synthesize-chunk
+2025-09-07 23:06:15,107 - __main__ - DEBUG - SynthesizeChunk received: +1 chars (total=1251)
+2025-09-07 23:06:15,161 - __main__ - DEBUG - Event received: synthesize
+2025-09-07 23:06:15,161 - __main__ - DEBUG - Ignoring fallback Synthesize during active streaming session
+2025-09-07 23:06:15,161 - __main__ - DEBUG - Event received: synthesize-stop
+2025-09-07 23:06:15,161 - __main__ - DEBUG - SynthesizeStop received: finalizing streaming input (chars=1251)
+2025-09-07 23:06:15,162 - __main__ - DEBUG - Final combined text tail: ... her friends lived happily, always looking at life from exciting new perspectives!
+2025-09-07 23:06:15,162 - __main__ - DEBUG - Eager flush final (single) segment_tail: ... always looking at life from exciting new perspectives!
+2025-09-07 23:06:15,162 - __main__ - DEBUG - Eager: streaming segment len=1155 tail=... always looking at life from exciting new perspectives!
+2025-09-07 23:06:15,162 - __main__ - DEBUG - Sending request to Hume API with voice_spec: provider=HUME_AI id=4652d91b-edaf-42c5-abd4-904009422de3
+2025-09-07 23:06:15,889 - __main__ - DEBUG - Connected to Hume AI streaming API
+2025-09-07 23:06:15,890 - __main__ - DEBUG - Hume response headers: {'Date': 'Sun, 07 Sep 2025 23:06:15 GMT', 'Content-Type': 'text/plain; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-RAY': '97b9db053b95337c-MIA', 'x-request-id': '358d2f1d-df68-49d3-aa73-4c9395f16e21', 'Via': '1.1 google', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare'}
+2025-09-07 23:06:15,890 - __main__ - DEBUG - content_type=text/plain; charset=utf-8 is_sse=False
+2025-09-07 23:06:15,890 - __main__ - DEBUG - t_connect=727ms
+2025-09-07 23:06:15,902 - __main__ - DEBUG - t_first_sse=740ms
+2025-09-07 23:06:15,902 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:15,903 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:15,953 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:15,953 - __main__ - DEBUG - t_first_pcm=791ms (Δ from first SSE=51ms)
+2025-09-07 23:06:16,079 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:16,080 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:16,127 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:16,208 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:16,208 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:16,254 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:16,350 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:16,351 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:16,402 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:16,563 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:16,564 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:16,614 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:16,704 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:16,705 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:16,752 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:16,839 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:16,840 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:16,890 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:16,977 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:16,978 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:17,030 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:17,111 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:17,111 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:17,158 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:17,247 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:17,248 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:17,299 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:17,385 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:17,385 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:17,432 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:17,508 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:17,508 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:17,554 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:17,721 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:17,721 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:17,773 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:17,862 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:17,863 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:17,914 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:18,041 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:18,041 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:18,092 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:18,174 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:18,175 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:18,226 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:18,317 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:18,317 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:18,363 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:18,447 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:18,448 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:18,499 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:18,665 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:18,665 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:18,713 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:19,012 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:19,013 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:19,062 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:19,151 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:19,152 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:19,199 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:19,276 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:19,276 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:19,323 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:19,413 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:19,413 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:19,459 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:19,631 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:19,632 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:19,679 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:19,766 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:19,766 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:19,813 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:19,986 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:19,987 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:20,037 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:20,119 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:20,119 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=17964
+2025-09-07 23:06:20,165 - __main__ - DEBUG - WAV->PCM done: out_bytes=8232
+2025-09-07 23:06:20,891 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:20,892 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:20,942 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:21,025 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:21,026 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:21,072 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:21,361 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:21,361 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:21,409 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:21,489 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:21,490 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:21,537 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:21,631 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:21,632 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:21,678 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:21,764 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:21,765 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:21,811 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:21,877 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:21,877 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:21,923 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:22,016 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:22,016 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:22,063 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:22,145 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:22,146 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:22,192 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:22,281 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:22,281 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:22,327 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:22,406 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:22,407 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:22,457 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:22,542 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:22,543 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:22,591 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:22,755 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:22,756 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:22,806 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:22,888 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:22,888 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:22,934 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:23,133 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:23,134 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:23,184 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:23,275 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:23,275 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:23,321 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:23,405 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:23,405 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:23,456 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:23,618 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:23,618 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:23,669 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:23,747 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:23,748 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:23,798 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:23,879 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:23,879 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:23,930 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:24,004 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:24,005 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=40994
+2025-09-07 23:06:24,052 - __main__ - DEBUG - WAV->PCM done: out_bytes=18812
+2025-09-07 23:06:24,764 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:24,765 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:24,816 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:24,960 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:24,960 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:25,011 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:25,091 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:25,092 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:25,138 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:25,219 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:25,220 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:25,267 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:25,341 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:25,342 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:25,395 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:25,470 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:25,471 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:25,522 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:25,636 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:25,636 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:25,686 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:25,766 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:25,767 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:25,813 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:25,980 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:25,980 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:26,031 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:26,111 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:26,111 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:26,157 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:26,239 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:26,239 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:26,286 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:26,367 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:26,367 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:26,415 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:26,585 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:26,586 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:26,634 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:26,736 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:26,737 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:26,785 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:26,871 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:26,871 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:26,922 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:27,010 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:27,010 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:27,056 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:27,145 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:27,145 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:27,192 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:27,294 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:27,294 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:27,343 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:27,431 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:27,431 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:27,478 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:27,562 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:27,563 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:27,609 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:27,696 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:27,697 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:27,743 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:27,928 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:27,929 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:27,979 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:28,063 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:28,063 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:28,111 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:28,188 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:28,188 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:28,239 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:28,314 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:28,315 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=29484
+2025-09-07 23:06:28,365 - __main__ - DEBUG - WAV->PCM done: out_bytes=13524
+2025-09-07 23:06:28,843 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:28,844 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:28,894 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:29,046 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:29,047 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:29,097 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:29,181 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:29,182 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:29,228 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:29,369 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:29,369 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=37164
+2025-09-07 23:06:29,420 - __main__ - DEBUG - WAV->PCM done: out_bytes=17052
+2025-09-07 23:06:30,128 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:30,128 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:30,179 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:30,319 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:30,319 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:30,371 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:30,465 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:30,465 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:30,516 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:30,680 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:30,680 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:30,732 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:30,793 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:30,793 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=10284
+2025-09-07 23:06:30,839 - __main__ - DEBUG - WAV->PCM done: out_bytes=4704
+2025-09-07 23:06:31,367 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:31,368 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:31,418 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:31,499 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:31,500 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:31,548 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:31,626 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:31,627 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:31,674 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:31,762 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:31,762 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:31,810 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:31,890 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:31,890 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=33324
+2025-09-07 23:06:31,939 - __main__ - DEBUG - WAV->PCM done: out_bytes=15288
+2025-09-07 23:06:32,741 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:32,741 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:32,792 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:32,920 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:32,920 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:32,971 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:33,051 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:33,051 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:33,097 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:33,177 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:33,178 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:33,228 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:33,362 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:33,363 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:33,412 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:33,493 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:33,493 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:33,544 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:33,630 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:33,630 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:33,677 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:33,843 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:33,843 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:33,895 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:33,985 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:33,985 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:34,032 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:34,213 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:34,213 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:34,264 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:34,380 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:34,381 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:34,431 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:34,504 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:34,505 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:34,555 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:34,736 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:34,737 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:34,788 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:34,954 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:34,955 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:35,006 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:35,091 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:35,091 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:35,139 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:35,244 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:35,245 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:35,296 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:35,366 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:35,367 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:35,416 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:35,491 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:35,492 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:35,539 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:35,635 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:35,635 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=48684
+2025-09-07 23:06:35,683 - __main__ - DEBUG - WAV->PCM done: out_bytes=22344
+2025-09-07 23:06:36,135 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:36,136 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:36,187 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:36,372 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:36,372 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:36,423 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:36,504 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:36,504 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:36,551 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:36,630 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:36,631 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:36,677 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:36,835 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:36,835 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:36,881 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:37,095 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:37,095 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:37,143 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:37,371 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:37,371 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:37,422 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:37,524 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:37,525 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:37,572 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:37,647 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:37,647 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:37,693 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:37,872 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:37,873 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:37,924 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:38,096 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:38,097 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:38,145 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:38,227 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:38,227 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:38,276 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:38,360 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:38,361 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:38,413 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:38,493 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:38,493 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:38,545 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:38,628 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:38,629 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:38,677 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:38,761 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:38,762 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:38,810 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:38,973 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:38,973 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:39,025 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:39,106 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:39,107 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:39,160 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:39,237 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:39,238 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:39,286 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:39,369 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:39,370 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:39,413 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:39,503 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:39,504 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:39,553 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:39,640 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:39,640 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:39,690 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:39,772 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:39,773 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:39,818 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:39,912 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:39,912 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:39,957 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:40,037 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:40,038 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:40,082 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:40,237 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:40,237 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:40,282 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:40,423 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:40,423 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:40,469 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:40,566 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:40,566 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=57644
+2025-09-07 23:06:40,614 - __main__ - DEBUG - WAV->PCM done: out_bytes=26460
+2025-09-07 23:06:40,709 - __main__ - DEBUG - Using per-chunk WAV decode (one ffmpeg per event)
+2025-09-07 23:06:40,709 - __main__ - DEBUG - Converting WAV->PCM (per-chunk): in_bytes=60204
+2025-09-07 23:06:40,758 - __main__ - DEBUG - WAV->PCM done: out_bytes=27636
+2025-09-07 23:06:43,250 - __main__ - DEBUG - Emitting final PCM chunk of 268 bytes
+2025-09-07 23:06:43,250 - __main__ - DEBUG - Stream summary: events=135 audio_events=135 bytes_in=7598890 pcm_out=3488012 chunks_emitted=3407
+2025-09-07 23:06:43,250 - __main__ - DEBUG - Finished streaming from Hume AI
+2025-09-07 23:06:43,251 - __main__ - DEBUG - Wyoming write summary: chunks=3727 avg_send_ms=0.0 max_send_ms=0.2
