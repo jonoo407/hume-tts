@@ -6,11 +6,25 @@ services:
     container_name: hume-tts
     restart: unless-stopped
     env_file:
-      - .env
+      - secrets.env
+    environment:
+      - HUME_TTS_LOG_FILE=/app/logs/hume-tts.log
+      - HUME_TTS_FORMAT=wav
+      - HUME_TTS_INSTANT_MODE=true
+      - HUME_TTS_EAGER_STREAMING=1
+      - HUME_TTS_FIRST_SEGMENT_LEN=120
+      - HUME_TTS_FIRST_SEGMENT_MIN=60
+      - HUME_TTS_SEGMENT_LEN=480
+      - HUME_TTS_EAGER_FLUSH_MODE=hold_after_first
+      - HUME_TTS_PERSISTENT_WAV=0
+      - HUME_TTS_WORD_WRAP_SEGMENTATION=1
+      - HUME_TTS_FORCE_PER_CHUNK=1
+      - HUME_TTS_END_SILENCE_MS=300
     ports:
       - "10201:10201"
     volumes:
       - ./voices.txt:/app/voices.txt:ro
+      - ./logs:/app/logs
     # The container's entrypoint runs: python3 server.py
     # Configure via environment variables in .env
     # Example values are provided in .env.example

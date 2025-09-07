@@ -16,6 +16,10 @@ dist/
 logs/
 *.log
 
+# Allow IDE access to the primary TTS log for debugging
+!logs/
+!logs/hume-tts.log
+
 # Environment and secrets (DO NOT COMMIT)
 .env
 secrets.env
